@@ -1,0 +1,136 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: arial, sans-serif;
+}
+
+#site-header {
+	height:10vh;
+	width:100vw;
+}
+
+#site-nav {
+	top:0;
+	right:0;
+	position:fixed;
+	margin:0;
+	padding:0;
+	height: inherit;
+}
+
+#site-nav ul {
+	list-style: none;
+	height:inherit;
+	margin:0 30px 0 0;
+	padding:0;
+}
+
+#site-nav li {
+	display: inline-block;
+	float:left;
+	line-height:30px;
+	padding:15px 8px;
+	font-size: 13px;
+	height:30px;
+
+}
+
+#site-nav a {
+	text-decoration:none;
+	color: black;
+	opacity:.75;
+}
+
+#site-nav a:hover {
+	text-decoration: underline;
+}
+
+#site-nav span {
+	opacity:.55;
+}
+
+.bell {
+	height:20px;
+	width:20px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .55);
+	background-image: url('images/bell.png');
+	background-size: 50% 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:5px 4px;
+}
+
+.bell:hover {
+	background-color:rgba(0, 0, 0, 1);
+}
+
+.grate {
+	height:20px;
+	width:20px;
+	background-image: url('images/icon1.png');
+	opacity:.55;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:5px 4px;
+	vertical-align: middle;
+}
+
+.grate:hover {
+	opacity:1;
+}
+
+.letter {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-position: center;
+	background-image: url('https://lh6.googleusercontent.com/-iYEDxVxKBt0/AAAAAAAAAAI/AAAAAAAAAAA/AMW9IgeqGi11wLXORn_qWUwd9V9aaquEOQ/s32-c-mo/photo.jpg');
+}
+
+#main-section {
+	width:100vw;
+	height: 80vh;
+}
+
+.logo {
+	height:20vh;
+	width: auto;
+	margin: auto auto auto auto;
+	background-image: url('https://www.google.dk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.searchbar {
+	width:586px;
+	height: 40px;
+	margin:auto;
+}
+
+.searchbar input {
+	width:inherit;
+	height:inherit;
+	line-height: 35px;
+	box-sizing:border-box;
+	border:1px solid #d9d9d9;
+	-webkit-appearance:textfield;
+}
+
+input[type="text"] {
+	padding:0 8px;
+	font-size:18px;
+}
+
+.logo1 {
+	position:absolute;
+	top:31.3vh;
+	left:65vw;
+}
+
+
+
+#site-footer {
+	height:10vh;
+	width:100vw;
+}
