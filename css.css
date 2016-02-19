@@ -125,7 +125,36 @@ input[type="text"] {
 .logo1 {
 	position:absolute;
 	top:31.3vh;
-	left:65vw;
+	left:66vw;
+}
+
+.logo1 img {
+	opacity:.55;
+}
+
+.logo1 img:hover {
+	opacity:1;
+}
+
+.logo2 {
+	position:absolute;
+	top:30.6vh;
+	left:68vw;
+}
+
+.logo2 img {
+	height:30px;
+	width: auto;
+}
+
+.button-wrapper {
+	margin:auto;
+	text-align: center;
+	padding-top:40px;
+}
+
+.button-wrapper input {
+	
 }
 
 
